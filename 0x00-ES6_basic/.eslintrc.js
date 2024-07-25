@@ -5,7 +5,7 @@ module.exports = {
     jest: true,
   },
   extends: [
-    '*',
+    'airbnb-base',
     'plugin:jest/all',
   ],
   globals: {
@@ -18,8 +18,6 @@ module.exports = {
   },
   plugins: ['jest'],
   rules: {
-    "no-unused-vars": "warn",
-    "no-undef": "warn",
     'no-console': 'off',
     'no-shadow': 'off',
     'no-restricted-syntax': [
